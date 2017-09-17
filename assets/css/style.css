@@ -101,13 +101,13 @@ textarea.form-control {
   min-height: 170px;
   resize: vertical;
 }
-button:hover {
+button.btn-primary:hover {
   background: #53BFBA;
 }
-button:active {
+button.btn.btn-primary:active {
   background: #3D8C88;
 }
-button:focus {
+button.btn-primary:focus {
   outline:0;
 }
 
