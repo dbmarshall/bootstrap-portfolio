@@ -3,17 +3,64 @@
 <head>
   <title>Bootstrap Portfolio :: David Morse</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 
-  nav
+  
+  <!-- Static navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <div id="name" class="navbar-brand tealback">
+          David Morse
+        </div>
+      </div>
+      <div id="navbar"> <!-- class="navbar-collapse collapse" -->
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+    <!--/.container-fluid -->
+  </nav>
+
 
   <div class="container">
-    main content
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="maininner">
+          <div class="page-header">
+            <h1 class="tealtext">About Me</h1>
+          </div>
+          <img src="assets/images/David-OldTown-Jerusalem.jpg" alt="me" class="profileimage">
+          <p>I know my way around the front-end of web development, rising to peripheral challenges that have arisen over the years, a jack of all trades when duty calls.  I've managed projects, done some SEO, and lots more.  I've touched countless different technologies, lately focusing more on single-page applications.</p>
+          <p>On a personal level, I've volunteered with a collective that manages an open-publishing social justice news website since 2004, as well as doing my own independent reporting, photography, and videography.  When not doing all of those things, I love to unplug and head for the mountains in the winter, an avid snowboarder and powder hound. Bring it on, big sky.</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="social maininner">
+          <div class="page-header">
+            <h3 class="tealtext">Connect with Me</h3>
+          </div>
+          <a href="https://github.com/dbmarshall/" title="GitHub"><img src="assets/images/social_if_github_square_black_107109.png" alt="GitHub"></a>
+          <a href="https://www.Linkedin.com/in/david-m/" title="Linkedin"><img src="assets/images/social_if_linkedin_334668.png" alt="Linkedin"></a>
+          <a href="https://stackoverflow.com/users/3787666/david" title="Stack Overflow"><img src="assets/images/social_if_stackoverflow_273179.png" alt="Stack Overflow" class="last"></a>
+        </div>
+      </div>
+    </div>
   </div>
 
-  footer
+  <footer class="footer">
+    <div class="container">
+      <div class="copyright">
+        <p>&copy; Copyright 2017 David Morse</p>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>

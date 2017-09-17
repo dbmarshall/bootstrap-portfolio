@@ -1,13 +1,124 @@
 /**
  Bootstrap Portfolio
  **/
+ html, body {
+  min-height: 100%;
+ }
  body {
+  margin-bottom: 80px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 18px;
   color: #777;
   background: #e4e4e3 url('../images/fabric_1.png');
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, #name {
+  margin-top: 0;
   font-family: 'Georgia', Times, Times New Roman, serif;
   font-weight: bold;
+}
+h1 {
+  font-size: 28px;
+}
+.navbar-default {
+  background-color: #fff;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+footer {
+  color: #c5ccb8;
+  text-align: center;
+  background-color: #666;
+  border-top: 8px solid #4aaaa5;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+footer .copyright {
+  font-size: 14px;
+  color: #ccc;
+  padding: 14px 0;
+}
+#name {
+  margin-left: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 32px;
+  color: #fff;
+  pointer-events: none;
+}
+.maininner {
+  padding: 28px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.page-header {
+  margin-top: 0;
+  border-bottom: 2px solid #ddd;
+}
+.social .page-header {
+  border-bottom: 2px solid #eee;
+}
+img.profileimage {
+  width: 35%;
+  padding: 10px 22px 10px 0;
+  float: left;
+}
+.tealback {
+  background-color: #4aaaa5;
+}
+.tealtext, 
+.navbar-default .navbar-nav > li > a:hover {
+  color: #4aaaa5;
+}
+.social img {
+  width: 23%;
+  height: auto;
+  margin: 0 3% 0 0;
+  border: 2px solid #fff;
+}
+
+
+/* Width at 980px and below */
+@media screen and (max-width: 1200px) {
+  .social img {
+    width: 28%;
+  }
+}
+
+/* Width at 980px and below */
+@media screen and (max-width: 992px) {
+  h3 {
+      font-size: 18px;
+  }
+}
+
+/* Width at 980px and below */
+@media screen and (max-width: 768px) {
+  h3 {
+      font-size: 24px;
+  }
+  #navbar {
+    text-align: center;
+  }
+  ul.nav.navbar-nav.navbar-right {
+    display: table;
+    margin: 0 auto;
+  }
+  .nav > li {
+    float: left;
+  }
+  #name {
+    width: 100%;
+    text-align: center;
+  }
+  .col-sm-4 {
+    margin-top: 20px;
+  }
+  .social img {
+    width: 15%;
+  }
+
 }
