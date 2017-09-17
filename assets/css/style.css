@@ -1,0 +1,13 @@
+/**
+ Bootstrap Portfolio
+ **/
+ body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #777;
+  background: #e4e4e3 url('../images/fabric_1.png');
+}
+h1, h2, h3, h4 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight: bold;
+}
