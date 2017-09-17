@@ -19,6 +19,13 @@ h1, h2, h3, h4, #name {
 h1 {
   font-size: 28px;
 }
+p {
+  padding: 10px 0;
+  line-height: 1.7;
+}
+.maininner p:last-of-type {
+  padding: 10px 0 0 0;
+}
 .navbar-default {
   background-color: #fff;
   border: none;
