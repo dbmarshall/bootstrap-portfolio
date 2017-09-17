@@ -71,7 +71,6 @@ footer .copyright {
 img.profileimage {
   width: 35%;
   padding: 10px 22px 10px 0;
-  float: left;
 }
 .tealback {
   background-color: #4aaaa5;
@@ -90,6 +89,10 @@ img.profileimage {
 
 /* Width at 980px and below */
 @media screen and (max-width: 1200px) {
+  img.profileimage {
+    width: 100%;
+    padding: 10px 0;
+  }
   .social img {
     width: 28%;
   }
@@ -99,6 +102,10 @@ img.profileimage {
 @media screen and (max-width: 992px) {
   h3 {
       font-size: 18px;
+  }
+  img.profileimage {
+    width: 45%;
+    padding: 10px 22px 10px 0;
   }
 }
 
@@ -123,6 +130,10 @@ img.profileimage {
   }
   .col-sm-4 {
     margin-top: 20px;
+  }
+  img.profileimage {
+    width: 100%;
+    padding: 10px 0;
   }
   .social img {
     width: 15%;
