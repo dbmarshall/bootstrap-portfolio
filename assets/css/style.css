@@ -48,6 +48,9 @@ footer .copyright {
   color: #ccc;
   padding: 14px 0;
 }
+footer .copyright p {
+  padding: 0;
+}
 #name {
   margin-left: 0;
   padding-top: 15px;
