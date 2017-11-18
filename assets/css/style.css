@@ -145,9 +145,13 @@ button.btn-primary:focus {
 
 /* Width at 980px and below */
 @media screen and (max-width: 1200px) {
-  img.profileimage {
+  /*img.profileimage {
     width: 100%;
     padding: 10px 0;
+  }*/
+  img.profileimage {
+    width: 35%;
+    padding: 10px 22px 10px 0;
   }
   .social img {
     width: 28%;
@@ -187,9 +191,13 @@ button.btn-primary:focus {
   .col-sm-4 {
     margin-top: 20px;
   }
-  img.profileimage {
+  /*img.profileimage {
     width: 100%;
     padding: 10px 0;
+  }*/
+  img.profileimage {
+    width: 35%;
+    padding: 10px 22px 10px 0;
   }
   .social img {
     width: 15%;
